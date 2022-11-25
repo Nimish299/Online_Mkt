@@ -1,22 +1,19 @@
-.font{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-family: 'Helvetica 25 UltraLight', sans-serif;
-    font-family: 'Helvetica 35 Thin', sans-serif;
-    font-family: 'Helvetica 45 Light', sans-serif;
-    font-family: 'Helvetica 55 Roman', sans-serif;
-    font-family: 'Helvetica 65 Medium', sans-serif;
-    font-family: 'Poppins', sans-serif;
-
+.font {
+  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-family: "Helvetica 55 Roman", sans-serif;
+  font-family: "Helvetica 65 Medium", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.divider
-{ 
-   margin-top: 1em;
-   margin-bottom: 5px;
-   
-} 
+.divider {
+  margin-top: 1em;
+  margin-bottom: 5px;
+}
 .body {
   background-image: linear-gradient(#f6f4fa, #f6f7fa);
-  font-family: 'Helvetica 25 UltraLight', sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
   color: #8fc14a;
 }
 .side {
@@ -28,17 +25,38 @@
 .but2 {
   height: 20px;
 }
+#small {
+  width: 30%;
+  height: 25em;
+}
 .Search_mid {
   padding-left: 30%;
 }
-.Explore
-{
-    font-family: 'Helvetica 65 Medium', sans-serif;
-    color: white;
-    font-size: 50px;
-    padding-top: 100px;
-    
+#hover {
+  color: #c9c9c8;
+}
+#hover:hover {
+  color: #8fc14a;
+  text-decoration: none;
+  border-bottom: #8fc14a 0.3em solid;
+  display: block;
+}
+#cater_product {
+  color: #c9c9c8;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+#cater_product:hover {
+  color: #8fc14a;
+  background-color: white;
+}
 
+.Explore {
+  font-family: "Helvetica 65 Medium", sans-serif;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
 }
 
 .Adds_image {
@@ -56,7 +74,7 @@
 }
 
 .Best_seller_carousel {
-  padding-top: 300px;
+  padding-top: 250px;
 }
 
 .best_seller {
@@ -76,6 +94,12 @@
 }
 .Extra_space_mid {
   height: 300px;
+}
+.Magin_even {
+  margin-top: 214px;
+}
+#Magin_even_24 {
+  margin-top: 24px;
 }
 
 .best_seller_item {
@@ -109,7 +133,8 @@
   margin: 12px;
   margin-bottom: 0px;
 }
-.item_list_t
-{
-    margin: 12px;
+.item_list_t {
+  margin: 12px;
+}
+footer {
 }
