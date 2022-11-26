@@ -11,6 +11,10 @@
   margin-top: 1em;
   margin-bottom: 5px;
 }
+#Body {
+  max-width: 100%;
+}
+
 .body {
   background-image: linear-gradient(#f6f4fa, #f6f7fa);
   font-family: "Helvetica 25 UltraLight", sans-serif;
@@ -25,6 +29,7 @@
 .but2 {
   height: 20px;
 }
+
 #small {
   width: 30%;
   height: 25em;
@@ -45,7 +50,6 @@
   color: #c9c9c8;
   padding-bottom: 10px;
   text-align: center;
-  
 }
 #cater_product:hover {
   color: #8fc14a;
@@ -137,4 +141,55 @@
   margin: 12px;
 }
 footer {
+}
+.body_sign_in {
+  background-image: linear-gradient(#f6f4fa, #f6f7fa);
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+}
+#Sign_in_page_order {
+  border-style: solid;
+  border-width: medium;
+  padding: 5px;
+  margin: 0px;
+  color: #c9c9c8;
+  border-color: #8fc14a;
+  font-size: 30px;
+}
+#Sign_in_page_order:hover
+{
+ background-color: #8fc14a;
+}
+#small_sign_in {
+  width: 20%;
+
+  margin-left: 38%;
+  margin-top: 0%;
+}
+#signin_upper {
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 23%;
+    padding: 0%;
+    margin-bottom: 1%;
+    text-align: center;
+    
+ 
+}
+#upup
+{
+    margin-top:1%;
+}
+#forgot_pass_new_user
+{
+    margin: 3px;
+    text-align: center;
+    color: #c9c9c8;
+}
+#forgot_pass_new_user:hover
+{
+    color: blue;
+}
+#button
+{
+    background-color: #8fc14a;
 }
