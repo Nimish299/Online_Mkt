@@ -1,0 +1,370 @@
+.font {
+  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-family: "Helvetica 55 Roman", sans-serif;
+  font-family: "Helvetica 65 Medium", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.divider {
+  margin-top: 1em;
+  margin-bottom: 5px;
+}
+#Body {
+  max-width: 100%;
+}
+
+.body {
+  background-image: linear-gradient(#f6f4fa, #f6f7fa);
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  color: #8fc14a;
+}
+.side {
+  margin-right: 50px;
+}
+.colorsa {
+  background-color: #fffeff;
+}
+.but2 {
+  height: 20px;
+}
+.Type_store {
+  color: #c9c9c8;
+}
+.Tag_line {
+  color: #8fc14a;
+}
+.line_line {
+  color: #8fc14a;
+  border-width: 3px;
+}
+
+#small {
+  width: 30%;
+  height: 25em;
+}
+#small_box {
+  height: 5em;
+  margin-top: 15px;
+  margin-bottom: 1.7em;
+}
+.Search_mid {
+  padding-left: 55%;
+}
+#hover {
+  color: #c9c9c9;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+#button_add_sub {
+  width: 30%;
+}
+.input {
+  width: 30%;
+  padding: 0%;
+  margin: 0%;
+  pointer-events: none;
+  text-align: center;
+  background-color:#f6f4fa ;
+  border: 0in;
+}
+#hover:hover {
+  color: #8fc14a;
+  text-decoration: none;
+  border-bottom: #8fc14a 0.3em solid;
+  display: block;
+}
+#cater_product {
+  color: #c9c9c8;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#cater_product:hover {
+  color: #8fc14a;
+  background-color: white;
+}
+
+.Explore {
+  font-family: "Helvetica 65 Medium", sans-serif;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+.Adds_image {
+  background-image: linear-gradient(
+      to top,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("https://food.unl.edu/newsletters/images/fresh-vegetables-basket.png");
+  width: 100%;
+  height: 600px;
+
+  background-size: cover;
+  color: white;
+}
+
+.Best_seller_carousel {
+  padding-top: 250px;
+}
+
+.best_seller {
+  background-color: #feffff;
+  height: 300px;
+  padding: 25px;
+  margin: 28px;
+
+  max-width: 700px;
+}
+
+.Extra_space {
+  height: 500px;
+}
+.Extra_space_small {
+  height: 50px;
+}
+.Extra_space_mid {
+  height: 300px;
+}
+.Magin_even {
+  margin-top: 214px;
+}
+#Magin_even_24 {
+  margin-top: 24px;
+}
+
+.best_seller_item {
+  margin: 10px;
+  height: 250px;
+
+  background-color: #f7f5fb;
+  margin: 12px;
+  color: #8fc14a;
+}
+.Catergory {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Cat_item {
+  height: 500px;
+  padding: 6px;
+  margin: 16px;
+
+  background-color: #feffff;
+}
+
+.Cat_item_center {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.item_list {
+  height: 170px;
+  background-color: #f7f5fb;
+  margin: 12px;
+  margin-bottom: 0px;
+}
+.item_list_t {
+  margin: 12px;
+}
+
+.body_sign_in {
+  background-image: linear-gradient(#f6f4fa, #f6f7fa);
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+}
+#Sign_in_page_order {
+  border-style: solid;
+  border-width: medium;
+  padding: 5px;
+  margin: 0px;
+  color: #c9c9c8;
+  border-color: #8fc14a;
+  font-size: 20px;
+}
+#Sign_in_page_order:hover {
+  background-color: #8fc14a;
+}
+#small_sign_in {
+  width: 20%;
+
+  margin-left: 38%;
+  margin-top: 0%;
+}
+#small_sign_up {
+  width: 40%;
+
+  margin-left: 30%;
+  margin-top: 1%;
+}
+#signin_upper {
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 33%;
+  padding: 0%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+#signup_upper {
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 33%;
+  padding: 0%;
+
+  text-align: center;
+}
+#upup {
+  margin-top: 15%;
+}
+#forgot_pass_new_user {
+  margin: 3px;
+  text-align: center;
+  color: #c9c9c8;
+}
+#forgot_pass_new_user:hover {
+  color: blue;
+}
+#button {
+  background-color: #8fc14a;
+}
+#button_profile {
+  background-color: #8fc14a;
+  width: 30%;
+  margin-top: 5%;
+}
+#button_sign {
+  background-color: #8fc14a;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 26%;
+}
+#button_sign_up {
+  background-color: #8fc14a;
+  margin-bottom: 5em;
+}
+#navbar {
+  background-color: #fffffe;
+  padding: 0%;
+}
+#navbar_cat {
+  background-color: #f6f4fa;
+  padding-left: 20%;
+}
+#Cat_item_product {
+  height: 310px;
+  padding: 0px;
+  margin: 16px;
+
+  border: 1px solid #c9c9c8;
+
+  background-color: #feffff;
+}
+#Cat_item_product:hover {
+  box-shadow: 5px 10px 30px #c9c9c8;
+}
+#product_item {
+  width: 80%;
+  margin-top: 10px;
+}
+#product_image {
+  height: 100%;
+}
+#PRODUCT_NAME {
+  margin: 0px;
+  padding: 0px;
+  color: #c9c9c8;
+}
+#Image_countainer {
+  margin: 0%;
+  border-bottom: 1px solid #c9c9c8;
+  padding: 0%;
+  height: 70%;
+}
+#Image_price_countainer {
+  height: 30%;
+}
+
+#Prize {
+  margin: 0px;
+  color: #8fc14a;
+}
+
+#Profile {
+  margin-top: 3%;
+  margin-bottom: 10%;
+  height: auto;
+  width: 40%;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+}
+.profile_info {
+  color: black;
+
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+}
+.Total
+{
+  color: black;
+
+  font-family: "Poppins", sans-serif;
+  margin-top: 5%;
+}
+.box_t{
+  border: 1px solid black;
+}
+.all_product
+{
+  border: 1px solid black;
+  padding: 5%;
+}
+.info {
+  padding: 5px;
+}
+.inf {
+  text-align: left;
+}
+#Month {
+  width: 60%;
+  padding: 0%;
+}
+.Head {
+  font-size: 20px;
+  text-align: left;
+  padding: 2%;
+}
+#cart_icon {
+  align-self: center;
+
+  margin-left: 50%;
+  color: #c9c9c8;
+  padding-bottom: 10px;
+}
+#cart_icon:hover {
+  color: #8fc14a;
+  text-decoration: none;
+  border-bottom: #8fc14a 0.3em solid;
+  display: block;
+}
+#cart
+{
+  margin-top: 3%;
+  margin-bottom: 10%;
+  height: auto;
+  width: 60%;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+
+}
+.cart_info {
+  color: black;
+  margin: 3%;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+  padding: 1%;
+}

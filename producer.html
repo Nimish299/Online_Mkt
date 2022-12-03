@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product</title>
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-9"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header id="navbar" class="p-2 border-bottom colorsa">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="front.html"
+            class="d-flex align-items-left mb-2 mb-lg-0 text-dark text-decoration-none"
+          >
+            <img alt="Qries" src="https://www.qries.com/images/banner_logo.png"
+            width=60" height="30">
+          </a>
+
+          <form class="d-flex me-lg-auto Search_mid" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button id="button" class="btn btn-success" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="text-end">
+            <a href="/sign_in.html" type="button" class="btn btn-outline me-2"
+              >Login</a
+            >
+            <a href="/signup.html" type="button" class="btn btn">Sign-up</a>
+          </div>
+
+          <div class="dropdown text-end">
+            <a
+              href="#"
+              class="d-block link-dark text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://github.com/mdo.png"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="/Profile.html">Profile</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller bg-body shadow-sm">
+      <nav id="navbar_cat" class="nav" aria-label="Secondary navigation">
+        <a id="hover" class="nav-link active" aria-current="page" href="#"
+          >Dashboard</a
+        >
+        <a id="hover" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+          >Catergory</a
+        >
+        <div
+          id="small"
+          class="container dropdown-menu dropdown-menu-end dropdown-content"
+        >
+          <div
+            id="small_box"
+            class="container "
+          >
+          <h2 class="Type_store">General Store</h2>
+          <h5 class="Tag_line">Tag line</h3>
+            <hr class="line_line">
+        
+        </div>
+
+          <div class="row">
+            <div class="col-md">
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+            </div>
+            <div class="col-md">
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+              <a id="cater_product" class="dropdown-item" href="">link text</a>
+            </div>
+          </div>
+        </div>
+
+        <a id="hover" class="nav-link" href="#">Catergory</a>
+        <a id="hover" class="nav-link" href="#">Catergory</a>
+        <a id="hover" class="nav-link" href="#">Catergory</a>
+        
+        <a
+        href="cart.html"
+        id="cart_icon"
+               class="d-flex  text-dark text-decoration-none"
+      >
+        <img alt="Qries" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png"
+        width=25" height="30">
+      </a>
+      </nav>
+    </div>
+
+    <div id="product_item" class="container-fluid text-center">
+      <div class="row align-items-start">
+        <div class="row align-items-center">
+          <div id="Cat_item_product" class="col ">
+            <div id="Image_countainer" class="container">
+              <!-- Content here -->
+
+              <img
+                id="product_image"
+                src="https://pngimg.com/uploads/apple/apple_PNG12489.png"
+                alt=""
+              />
+            </div>
+
+            <div id="Image_price_countainer" class="container">
+              <!-- Content here -->
+
+              <div>
+                <p id="PRODUCT_NAME">Product name</p>
+                <p id="Prize">Price</p>
+              </div>
+
+              <div id="button_add_sub" class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="-1">
+                  -
+                </button>
+                <input class="input" type="text"/>
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="1">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="Cat_item_product" class="col">
+            <div id="Image_countainer" class="container">
+              <!-- Content here -->
+
+              <img
+                id="product_image"
+                src="https://5.imimg.com/data5/UB/KC/MY-21743992/fresh-strawberry-500x500.jpg"
+                alt=""
+              />
+            </div>
+
+            <div id="Image_price_countainer" class="container">
+              <!-- Content here -->
+
+              <div>
+                <p id="PRODUCT_NAME">Product name</p>
+                <p id="Prize">Price</p>
+              </div>
+
+              <div id="button_add_sub" class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="-1">
+                  -
+                </button>
+                <input class="input" type="text"/>
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="1">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="Cat_item_product" class="col">
+            <div id="Image_countainer" class="container">
+              <!-- Content here -->
+
+              <img
+                id="product_image"
+                src="https://www.pharmamirror.com/wp-content/uploads/2013/06/Banna-as-Hepatitis-Oral-Vaccine.jpg"
+                alt=""
+              />
+            </div>
+
+            <div id="Image_price_countainer" class="container">
+              <!-- Content here -->
+
+              <div>
+                <p id="PRODUCT_NAME">Product name</p>
+                <p id="Prize">Price</p>
+              </div>
+
+            <div id="button_add_sub" class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="-1">
+                  -
+                </button>
+                <input class="input" type="text"/>
+                <button type="button" class="btn btn-sm btn-outline-secondary button" data-num="1">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+      
+    </div>
+
+    <div id="Magin_even_24" class="container footer_2">
+      <footer >
+        
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <h5>Section1</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-3 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Features</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          
+        </div>
+      </footer>
+    </div>
+ 
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
